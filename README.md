@@ -1,6 +1,6 @@
 # stylelint-config-narwin
 
-> DockYard standard config for stylelint.
+DockYard standard config for stylelint.
 
 To see the rules that this config uses, please read the [config itself](./index.js).
 
