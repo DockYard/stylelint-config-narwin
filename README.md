@@ -109,7 +109,7 @@ The config is broadly compatible with [SugarSS](https://github.com/postcss/sugar
 
 ## Legal
 
-[DockYard](http://dockyard.com/), Inc. &copy; 2016
+[DockYard](http://dockyard.com/), Inc. &copy; 2017
 
 [@dockyard](http://twitter.com/dockyard)
 
