@@ -107,4 +107,10 @@ The config is broadly compatible with [SugarSS](https://github.com/postcss/sugar
 
 ## [Changelog](CHANGELOG.md)
 
-## [License](LICENSE)
+## Legal
+
+[DockYard](http://dockyard.com/), Inc. &copy; 2016
+
+[@dockyard](http://twitter.com/dockyard)
+
+[Licensed under the MIT license](http://www.opensource.org/licenses/mit-license.php)
