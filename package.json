@@ -1,12 +1,11 @@
 {
   "name": "stylelint-config-narwin",
   "version": "0.0.1",
-  "description": "Style lint configuration used by DockYard",
+  "description": "Stylelint configuration used by DockYard",
   "keywords": [
     "stylelint",
     "stylelint-config",
-    "dockyard",
-    "ember"
+    "dockyard"
   ],
   "main": "index.js",
   "scripts": {
