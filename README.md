@@ -42,6 +42,24 @@ If you've globally installed `stylelint-config-narwin` using the `-g` flag, then
 
 If you are setting up a new installation after `ember-cli-stylelint` you will update the `extends` property from 'stylelint-config-standard' to 'stylelint-config-narwin'. The `stylelint-config-narwin` configuration already extends the `stylelint-config-standard` configuration that is installed along with `ember-cli-stylelint`.  You may also add this config to your list of extensions per the [documentation](https://stylelint.io/user-guide/configuration/).
 
+### Additional Ember configuration
+#### Note
+Configuration of stylelint is per [ember-cli-stylelint configuration](https://github.com/billybonks/ember-cli-stylelint/README.md).  For example, to update the linter for CSS instead of the default SCSS add the following to your `ember-cli-build.js`:
+
+```javascript
+....
+module.exports = function(defaults) {
+  var app = new EmberApp(defaults, {
+    // Add options here
+    stylelint: {
+      linterConfig: {
+        syntax: 'css'
+      }
+    }
+  });
+....
+```
+
 ### Extending the config
 
 Simply add a `"rules"` key to your config, then add your overrides and additions there.
