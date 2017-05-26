@@ -1,18 +1,26 @@
 # stylelint-config-narwin
 
-DockYard standard config for stylelint.
+DockYard standard configuration rules for CSS linting using [stylelint](https://stylelint.io).
 
 To see the rules that this config uses, please read the [config itself](./index.js).
-
-## Example
-
-Coming soon.
 
 ## Installation
 
 ```bash
+npm install stylelint-config-standard --save-dev
 npm install stylelint-config-narwin --save-dev
 ```
+
+### Ember-specific Installation
+
+Ember installation utilizes [ember-cli-stylelint](https://github.com/billybonks/ember-cli-stylelint) to provide integrated tests and reporting of stylelint errors.
+
+```bash
+npm install stylelint-config-narwin --save-dev
+ember install ember-cli-stylelint
+```
+
+The ember-cli-stylelint addon will create a 'stylelint' config file at `/.stylelintrc`.
 
 ## Usage
 
@@ -31,6 +39,8 @@ If you've globally installed `stylelint-config-narwin` using the `-g` flag, then
   "extends": "/absolute/path/to/stylelint-config-narwin"
 }
 ```
+
+If you are setting up a new installation after `ember-cli-stylelint` you will update the `extends` property from 'stylelint-config-standard' to 'stylelint-config-narwin'. The `stylelint-config-narwin` configuration already extends the `stylelint-config-standard` configuration that is installed along with `ember-cli-stylelint`.  You may also add this config to your list of extensions per the [documentation](https://stylelint.io/user-guide/configuration/).
 
 ### Extending the config
 
