@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-narwin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Stylelint configuration used by DockYard",
   "repository": "https://github.com/dockyard/stylelint-config-narwin",
   "keywords": [
@@ -15,13 +15,13 @@
   "author": "DockYard <oss@dockyard.com>",
   "contributors": [
     {
-      "name" : "Lisa Backer",
-      "email" : "lisa.backer@dockyard.com",
+      "name": "Lisa Backer",
+      "email": "lisa.backer@dockyard.com",
       "url": "https://github.com/eshtadc"
     }
   ],
   "license": "MIT",
   "devDependencies": {
-   "stylelint": "^7.8.0"
+    "stylelint": "^7.8.0"
   }
 }
