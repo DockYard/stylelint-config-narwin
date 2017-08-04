@@ -13,10 +13,7 @@ npm install stylelint-config-narwin --save-dev
 
 ### Ember-specific Installation
 
-Ember installation utilizes [ember-cli-stylelint](https://github.com/billybonks/ember-cli-stylelint) to provide integrated tests and reporting of stylelint errors.
-
-#### NOTE
-Until a release is made of ember-cli-stylelint that includes the fixes from May 26 or later, it must be installed from at least [commit a421ca6](https://github.com/billybonks/ember-cli-stylelint/commit/a421ca6986e476c211d9a44be32f34e752c1b6e9) or later in order to work properly on Ember versions on or after 2.13.
+Ember installation utilizes [ember-cli-stylelint](https://github.com/billybonks/ember-cli-stylelint) to provide integrated tests and reporting of stylelint errors. This must be version 0.15.0 or later to support Ember versions 2.13 and up.
 
 ```bash
 npm install stylelint-config-narwin --save-dev
