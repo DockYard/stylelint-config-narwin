@@ -14,6 +14,7 @@ module.exports = {
     "block-opening-brace-newline-after": "always",
     "color-named": "never",
     "comment-empty-line-before": null,
+    "comment-no-empty": true,
     "custom-property-empty-line-before": null,
     "custom-property-no-outside-root": true,
     "declaration-bang-space-after": null,
