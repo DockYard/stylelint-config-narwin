@@ -22,6 +22,6 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "stylelint": "^7.8.0"
+    "stylelint": "~8.2.0"
   }
 }

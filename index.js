@@ -2,6 +2,9 @@
 
 module.exports = {
   "extends": "stylelint-config-standard",
+  "plugins": [
+    "stylelint-csstree-validator"
+  ],
   "rules": {
     "at-rule-empty-line-before": null,
     "at-rule-name-space-after": "always",
@@ -15,8 +18,8 @@ module.exports = {
     "color-named": "never",
     "comment-empty-line-before": null,
     "comment-no-empty": true,
+    "csstree/validator": true,
     "custom-property-empty-line-before": null,
-    "custom-property-no-outside-root": true,
     "declaration-bang-space-after": null,
     "declaration-bang-space-before": null,
     "declaration-block-no-duplicate-properties": [true, {
@@ -40,7 +43,6 @@ module.exports = {
     "indentation": 2|"tab",
     "keyframe-declaration-no-important": null,
     "max-empty-lines": 2,
-    "media-feature-no-missing-punctuation": true,
     "media-query-list-comma-newline-after": null,
     "media-query-list-comma-space-after": "always",
     "no-missing-end-of-source-newline": true,
@@ -54,11 +56,8 @@ module.exports = {
     "selector-attribute-quotes": "always",
     "selector-list-comma-newline-after": null,
     "selector-list-comma-newline-before": "never-multi-line",
-    "selector-no-empty": true,
     "selector-pseudo-element-colon-notation": "single",
-    "selector-root-no-composition": true,
     "string-quotes": "double",
-    "stylelint-disable-reason": "always-after",
     "value-keyword-case": "lower",
     "value-list-comma-newline-after": null,
     "value-list-comma-space-before": null
