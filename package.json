@@ -21,7 +21,7 @@
     }
   ],
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "stylelint": "~8.2.0",
     "stylelint-csstree-validator": "^1.2.0"
   }
