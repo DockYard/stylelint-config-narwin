@@ -54,7 +54,7 @@ module.exports = {
           "text-emphasis", "text-emphasis-color", "text-emphasis-style", "text-emphasis-position",
           "vertical-align", "white-space", "word-spacing", "hyphens",
           "src"
-        ]
+        ],
         "order": "flexible" },
 
       { "properties": [
