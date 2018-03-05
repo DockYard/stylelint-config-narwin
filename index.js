@@ -12,41 +12,62 @@ module.exports = {
       "declarations"
     ],
     "order/properties-order": [
-      { "properties": [ "content", "quotes" ] },
+      { "properties": [ "content", "quotes" ],
+        "order": "flexible" },
 
-      { "properties": [ "margin", "margin-top", "margin-right", "margin-bottom", "margin-left" ] },
-      { "properties": [ "padding", "padding-top", "padding-right", "padding-bottom", "padding-left" ] },
+      { "properties": [
+          "margin", "margin-top", "margin-right", "margin-bottom", "margin-left",
+          "padding", "padding-top", "padding-right", "padding-bottom", "padding-left",
+        ],
+        "order": "flexible" },
 
-      { "properties": [ "box-sizing" ] },
-      { "properties": [ "flex", "flex-basis", "flex-direction", "flex-flow", "flex-grow", "flex-shrink", "flex-wrap", "align-content", "align-items", "align-self", "justify-content", "order" ] },
-      { "properties": [ "grid-template-columns", "grid-template-rows", "grid-template-areas", "grid-template", "grid-auto-columns", "grid-auto-rows", "grid-auto-flow", "grid", "grid-row-start", "grid-column-start", "grid-row-end", "grid-column-end", "grid-row", "grid-column", "grid-area", "grid-row-gap", "grid-column-gap", "grid-gap" ] },
-      { "properties": [ "width", "min-width", "max-width", "height", "min-height", "max-height" ] },
-      { "properties": [ "display", "visibility" ] },
-      { "properties": [ "float", "clear" ] },
-      { "properties": [ "overflow", "overflow-x", "overflow-y" ] },
-      { "properties": [ "clip", "zoom" ] },
-      { "properties": [ "columns", "column-gap", "column-fill", "column-rule", "column-span", "column-count", "column-width" ] },
-      { "properties": [ "table-layout", "empty-cells", "caption-side", "border-spacing", "border-collapse", "list-style", "list-style-position", "list-style-type", "list-style-image" ] },
-      { "properties": [ "position", "z-index", "top", "right", "bottom", "left" ] },
+      { "properties": [
+          "width", "min-width", "max-width", "height", "min-height", "max-height",
+        ],
+        "order": "flexible" },
 
-      { "properties": [ "font", "font-family", "font-size", "font-size-adjust", "font-stretch", "font-effect", "font-style", "font-variant", "font-weight" ] },
-      { "properties": [ "font-emphasize", "font-emphasize-position", "font-emphasize-style" ] },
-      { "properties": [ "color" ] },
-      { "properties": [ "line-height", "list-style", "word-spacing" ] },
-      { "properties": [ "letter-spacing" ] },
-      { "properties": [ "text-align", "text-align-last", "text-decoration", "text-indent", "text-justify", "text-overflow", "text-overflow-ellipsis", "text-overflow-mode", "text-rendering", "text-outline", "text-shadow", "text-transform", "text-wrap", "word-wrap", "word-break" ] },
-      { "properties": [ "text-emphasis", "text-emphasis-color", "text-emphasis-style", "text-emphasis-position" ] },
-      { "properties": [ "vertical-align", "white-space", "word-spacing", "hyphens" ] },
-      { "properties": [ "src" ] },
+      { "properties": [
+          "display", "visibility"
+        ],
+        "order": "flexible" },
 
-      { "properties": [ "border", "border-top", "border-right", "border-bottom", "border-left", "border-width", "border-top-width", "border-right-width", "border-bottom-width", "border-left-width" ] },
-      { "properties": [ "border-style", "border-top-style", "border-right-style", "border-bottom-style", "border-left-style" ] },
-      { "properties": [ "border-color", "border-top-color", "border-right-color", "border-bottom-color", "border-left-color" ] },
-      { "properties": [ "border-radius", "border-top-left-radius", "border-top-right-radius", "border-bottom-left-radius", "border-bottom-right-radius" ] },
-      { "properties": [ "outline", "outline-color", "outline-offset", "outline-style", "outline-width" ] },
-      { "properties": [ "stroke-width", "stroke-linecap", "stroke-dasharray", "stroke-dashoffset", "stroke" ] },
+      { "properties": [
+          "box-sizing",
+          "grid-template-columns", "grid-template-rows", "grid-template-areas", "grid-template", "grid-auto-columns", "grid-auto-rows", "grid-auto-flow", "grid", "grid-row-start", "grid-column-start", "grid-row-end", "grid-column-end", "grid-row", "grid-column", "grid-area", "grid-row-gap", "grid-column-gap", "grid-gap",
+          "flex", "flex-basis", "flex-direction", "flex-flow", "flex-grow", "flex-shrink", "flex-wrap", "align-content", "align-items", "align-self", "justify-content", "order",
+          "float", "clear",
+          "overflow", "overflow-x", "overflow-y",
+          "clip", "zoom",
+          "columns", "column-gap", "column-fill", "column-rule", "column-span", "column-count", "column-width",
+          "table-layout", "empty-cells", "caption-side", "border-spacing", "border-collapse", "list-style", "list-style-position", "list-style-type", "list-style-image",
+          "position", "z-index", "top", "right", "bottom", "left"
+        ],
+        "order": "flexible" },
 
-      { "properties": [ "background", "background-color", "background-image", "background-repeat", "background-position", "background-size", "box-shadow", "fill" ] },
+      { "properties": [
+          "font", "font-family", "font-size", "font-size-adjust", "font-stretch", "font-effect", "font-style", "font-variant", "font-weight",
+          "font-emphasize", "font-emphasize-position", "font-emphasize-style",
+          "color",
+          "line-height", "list-style", "word-spacing",
+          "letter-spacing",
+          "text-align", "text-align-last", "text-decoration", "text-indent", "text-justify", "text-overflow", "text-overflow-ellipsis", "text-overflow-mode", "text-rendering", "text-outline", "text-shadow", "text-transform", "text-wrap", "word-wrap", "word-break",
+          "text-emphasis", "text-emphasis-color", "text-emphasis-style", "text-emphasis-position",
+          "vertical-align", "white-space", "word-spacing", "hyphens",
+          "src"
+        ]
+        "order": "flexible" },
+
+      { "properties": [
+          "border", "border-top", "border-right", "border-bottom", "border-left", "border-width", "border-top-width", "border-right-width", "border-bottom-width", "border-left-width",
+          "border-style", "border-top-style", "border-right-style", "border-bottom-style", "border-left-style",
+          "border-color", "border-top-color", "border-right-color", "border-bottom-color", "border-left-color",
+          "border-radius", "border-top-left-radius", "border-top-right-radius", "border-bottom-left-radius", "border-bottom-right-radius",
+          "background", "background-color", "background-image", "background-repeat", "background-position", "background-size", "box-shadow", "fill",
+          "outline", "outline-color", "outline-offset", "outline-style", "outline-width",
+          "stroke-width", "stroke-linecap", "stroke-dasharray", "stroke-dashoffset", "stroke"
+        ],
+        "order": "flexible" },
+
       { "properties": [ "opacity" ] },
 
       { "properties": [ "transition", "transition-property", "transition-duration", "transition-timing-function", "transition-delay" ] },
