@@ -68,14 +68,23 @@ module.exports = {
         ],
         "order": "flexible" },
 
-      { "properties": [ "opacity" ] },
+      { "properties": [
+          "transition", "transition-property", "transition-duration", "transition-timing-function", "transition-delay",
+          "transform", "transform-origin", "transform-style", "backface-visibility", "perspective", "perspective-origin"
+        ],
+        "order": "flexible" },
 
-      { "properties": [ "transition", "transition-property", "transition-duration", "transition-timing-function", "transition-delay" ] },
+      { "properties": [
+          "animation", "animation-name", "animation-duration", "animation-play-state", "animation-timing-function", "animation-delay", "animation-iteration-count", "animation-direction"
+        ],
+        "order": "flexible" },
 
-      { "properties": [ "transform", "transform-origin", "transform-style", "backface-visibility", "perspective", "perspective-origin" ] },
-      { "properties": [ "animation", "animation-name", "animation-duration", "animation-play-state", "animation-timing-function", "animation-delay", "animation-iteration-count", "animation-direction" ] },
+      { "properties": [
+          "opacity",
+          "tab-size", "counter-reset", "counter-increment", "resize", "cursor", "pointer-events", "speak", "user-select", "nav-index", "nav-up", "nav-right", "nav-down", "nav-left"
+        ],
+        "order": "flexible" },
 
-      { "properties": [ "tab-size", "counter-reset", "counter-increment", "resize", "cursor", "pointer-events", "speak", "user-select", "nav-index", "nav-up", "nav-right", "nav-down", "nav-left" ] }
     ],
     "at-rule-empty-line-before": null,
     "at-rule-name-space-after": "always",
