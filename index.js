@@ -42,7 +42,7 @@ module.exports = {
           "overflow", "overflow-x", "overflow-y",
           "clip", "zoom",
           "columns", "column-gap", "column-fill", "column-rule", "column-span", "column-count", "column-width",
-          "table-layout", "empty-cells", "caption-side", "border-spacing", "border-collapse", "list-style", "list-style-position", "list-style-type", "list-style-image",
+          "table-layout", "empty-cells", "caption-side", "border-spacing", "border-collapse",
           "position", "z-index", "top", "right", "bottom", "left"
         ],
         "order": "flexible" },
@@ -51,7 +51,8 @@ module.exports = {
           "font", "font-family", "font-size", "font-size-adjust", "font-stretch", "font-effect", "font-style", "font-variant", "font-weight",
           "font-emphasize", "font-emphasize-position", "font-emphasize-style",
           "color",
-          "line-height", "list-style", "word-spacing",
+          "list-style", "list-style-position", "list-style-type", "list-style-image",
+          "line-height", "word-spacing",
           "letter-spacing",
           "text-align", "text-align-last", "text-decoration", "text-indent", "text-justify", "text-overflow", "text-overflow-ellipsis", "text-overflow-mode", "text-rendering", "text-outline", "text-shadow", "text-transform", "text-wrap", "word-wrap", "word-break",
           "text-emphasis", "text-emphasis-color", "text-emphasis-style", "text-emphasis-position",
