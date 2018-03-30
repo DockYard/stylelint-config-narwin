@@ -9,7 +9,11 @@ module.exports = {
   "rules": {
     "order/order": [
       "custom-properties",
-      "declarations"
+      "dollar-variables",
+      "custom-properties",
+      "declarations",
+      "at-rules",
+      "rules"
     ],
     "order/properties-order": [
       { "properties": [ "content", "quotes" ],
