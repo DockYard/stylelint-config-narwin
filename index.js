@@ -43,7 +43,8 @@ module.exports = {
           "clip", "zoom",
           "columns", "column-gap", "column-fill", "column-rule", "column-span", "column-count", "column-width",
           "table-layout", "empty-cells", "caption-side", "border-spacing", "border-collapse",
-          "position", "z-index", "top", "right", "bottom", "left"
+          "position", "z-index", "top", "right", "bottom", "left",
+          "transform", "transform-origin", "transform-style"
         ],
         "order": "flexible" },
 
@@ -74,7 +75,7 @@ module.exports = {
 
       { "properties": [
           "transition", "transition-property", "transition-duration", "transition-timing-function", "transition-delay",
-          "transform", "transform-origin", "transform-style", "backface-visibility", "perspective", "perspective-origin"
+          "backface-visibility", "perspective", "perspective-origin"
         ],
         "order": "flexible" },
 
