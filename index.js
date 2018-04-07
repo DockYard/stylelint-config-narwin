@@ -3,9 +3,97 @@
 module.exports = {
   "extends": "stylelint-config-standard",
   "plugins": [
-    "stylelint-csstree-validator"
+    "stylelint-csstree-validator",
+    "stylelint-order"
   ],
   "rules": {
+    "order/order": [
+      "custom-properties",
+      "dollar-variables",
+      "declarations",
+      "at-rules",
+      {
+        type: 'at-rule',
+        name: 'media'
+      }
+    ],
+    "order/properties-order": [
+      { "properties": [ "content", "quotes" ],
+        "order": "flexible" },
+
+      { "properties": [
+          "margin", "margin-top", "margin-right", "margin-bottom", "margin-left",
+          "padding", "padding-top", "padding-right", "padding-bottom", "padding-left",
+        ],
+        "order": "flexible" },
+
+      { "properties": [
+          "width", "min-width", "max-width", "height", "min-height", "max-height",
+        ],
+        "order": "flexible" },
+
+      { "properties": [
+          "display", "visibility"
+        ],
+        "order": "flexible" },
+
+      { "properties": [
+          "box-sizing",
+          "grid-template-columns", "grid-template-rows", "grid-template-areas", "grid-template", "grid-auto-columns", "grid-auto-rows", "grid-auto-flow", "grid", "grid-row-start", "grid-column-start", "grid-row-end", "grid-column-end", "grid-row", "grid-column", "grid-area", "grid-row-gap", "grid-column-gap", "grid-gap",
+          "flex", "flex-basis", "flex-direction", "flex-flow", "flex-grow", "flex-shrink", "flex-wrap", "align-content", "align-items", "align-self", "justify-content", "order",
+          "float", "clear",
+          "overflow", "overflow-x", "overflow-y",
+          "clip", "zoom",
+          "columns", "column-gap", "column-fill", "column-rule", "column-span", "column-count", "column-width",
+          "table-layout", "empty-cells", "caption-side", "border-spacing", "border-collapse",
+          "position", "z-index", "top", "right", "bottom", "left",
+          "transform", "transform-origin", "transform-style"
+        ],
+        "order": "flexible" },
+
+      { "properties": [
+          "font", "font-family", "font-size", "font-size-adjust", "font-stretch", "font-effect", "font-style", "font-variant", "font-weight",
+          "font-emphasize", "font-emphasize-position", "font-emphasize-style",
+          "color",
+          "list-style", "list-style-position", "list-style-type", "list-style-image",
+          "line-height", "word-spacing",
+          "letter-spacing",
+          "text-align", "text-align-last", "text-decoration", "text-indent", "text-justify", "text-overflow", "text-overflow-ellipsis", "text-overflow-mode", "text-rendering", "text-outline", "text-shadow", "text-transform", "text-wrap", "word-wrap", "word-break",
+          "text-emphasis", "text-emphasis-color", "text-emphasis-style", "text-emphasis-position",
+          "vertical-align", "white-space", "word-spacing", "hyphens",
+          "src"
+        ],
+        "order": "flexible" },
+
+      { "properties": [
+          "border", "border-top", "border-right", "border-bottom", "border-left", "border-width", "border-top-width", "border-right-width", "border-bottom-width", "border-left-width",
+          "border-style", "border-top-style", "border-right-style", "border-bottom-style", "border-left-style",
+          "border-color", "border-top-color", "border-right-color", "border-bottom-color", "border-left-color",
+          "border-radius", "border-top-left-radius", "border-top-right-radius", "border-bottom-left-radius", "border-bottom-right-radius",
+          "background", "background-color", "background-image", "background-repeat", "background-position", "background-size", "box-shadow", "fill",
+          "outline", "outline-color", "outline-offset", "outline-style", "outline-width",
+          "stroke-width", "stroke-linecap", "stroke-dasharray", "stroke-dashoffset", "stroke"
+        ],
+        "order": "flexible" },
+
+      { "properties": [
+          "transition", "transition-property", "transition-duration", "transition-timing-function", "transition-delay",
+          "backface-visibility", "perspective", "perspective-origin"
+        ],
+        "order": "flexible" },
+
+      { "properties": [
+          "animation", "animation-name", "animation-duration", "animation-play-state", "animation-timing-function", "animation-delay", "animation-iteration-count", "animation-direction"
+        ],
+        "order": "flexible" },
+
+      { "properties": [
+          "opacity",
+          "tab-size", "counter-reset", "counter-increment", "resize", "cursor", "pointer-events", "speak", "user-select", "nav-index", "nav-up", "nav-right", "nav-down", "nav-left"
+        ],
+        "order": "flexible" },
+
+    ],
     "at-rule-empty-line-before": null,
     "at-rule-name-space-after": "always",
     "at-rule-no-unknown": true,
