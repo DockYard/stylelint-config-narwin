@@ -11,8 +11,15 @@ module.exports = {
       "custom-properties",
       "dollar-variables",
       "declarations",
-      "at-rules",
-      "rules"
+      {
+        type: 'at-rule',
+        name: 'include'
+      },
+      "rules",
+      {
+        type: 'at-rule',
+        name: 'media'
+      }
     ],
     "order/properties-order": [
       { "properties": [ "content", "quotes" ],
