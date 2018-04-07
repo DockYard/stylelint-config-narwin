@@ -11,11 +11,7 @@ module.exports = {
       "custom-properties",
       "dollar-variables",
       "declarations",
-      {
-        type: 'at-rule',
-        name: 'include'
-      },
-      "rules",
+      "at-rules",
       {
         type: 'at-rule',
         name: 'media'
