@@ -1,3 +1,6 @@
+# 1.1.0
+- Added stylelint order rules using `stylelint-order` plugin
+- Rules based on [DockYard style guide](https://github.com/dockyard/styleguides/blob/master/ux-dev/css.md)
 # 1.0.0
 - Updated to stylelint 8 which requires removal of the following deprecated rules:
   - `custom-property-no-outside-root`
