@@ -117,7 +117,7 @@ module.exports = {
     "declaration-block-semicolon-space-after": null,
     "declaration-block-semicolon-space-before": null,
     "declaration-colon-newline-after": null,
-    "declaration-colon-space-after": "always",
+    "declaration-colon-space-after": "always-single-line",
     "declaration-empty-line-before": "never",
     "font-family-name-quotes": "always-unless-keyword",
     "font-weight-notation": "numeric",
