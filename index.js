@@ -133,6 +133,7 @@ module.exports = {
     "max-empty-lines": 2,
     "media-query-list-comma-newline-after": null,
     "media-query-list-comma-space-after": "always",
+    "no-descending-specificity": null,
     "no-missing-end-of-source-newline": true,
     "no-unknown-animations": true,
     "number-leading-zero": "never",
