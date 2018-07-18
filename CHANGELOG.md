@@ -1,3 +1,5 @@
+# 1.2.0
+- Null out "no-descending-specificity" rule
 # 1.1.0
 - Added stylelint order rules using `stylelint-order` plugin
 - Rules based on [DockYard style guide](https://github.com/dockyard/styleguides/blob/master/ux-dev/css.md)
