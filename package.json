@@ -22,7 +22,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "stylelint": "~8.2.0",
+    "stylelint": "^8.2.0",
     "stylelint-csstree-validator": "^1.2.0",
     "stylelint-order": "^0.7.0"
   }
