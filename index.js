@@ -145,7 +145,6 @@ module.exports = {
     "selector-attribute-quotes": "always",
     "selector-list-comma-newline-after": null,
     "selector-list-comma-newline-before": "never-multi-line",
-    "selector-pseudo-element-colon-notation": "double",
     "string-quotes": "double",
     "value-keyword-case": "lower",
     "value-list-comma-newline-after": null,
