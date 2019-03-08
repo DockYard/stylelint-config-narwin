@@ -1,3 +1,5 @@
+# 2.0.0
+- update pseudo elements to require double-colons (drops support for IE8)
 # 1.2.0
 - Null out "no-descending-specificity" rule
 # 1.1.0
