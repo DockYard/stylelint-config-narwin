@@ -106,7 +106,9 @@ module.exports = {
     "color-named": "never",
     "comment-empty-line-before": null,
     "comment-no-empty": true,
-    "csstree/validator": true,
+    "csstree/validator": {
+      "ignore": ["font-display"]
+    },
     "custom-property-empty-line-before": null,
     "declaration-bang-space-after": null,
     "declaration-bang-space-before": null,
