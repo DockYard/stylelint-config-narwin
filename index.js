@@ -52,7 +52,7 @@ module.exports = {
         "order": "flexible" },
 
       { "properties": [
-          "font", "font-family", "font-size", "font-size-adjust", "font-stretch", "font-effect", "font-style", "font-variant", "font-weight",
+          "font", "font-family", "font-size", "font-size-adjust", "font-stretch", "font-display", "font-effect", "font-style", "font-variant", "font-weight",
           "font-emphasize", "font-emphasize-position", "font-emphasize-style",
           "color",
           "list-style", "list-style-position", "list-style-type", "list-style-image",
