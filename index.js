@@ -40,6 +40,7 @@ module.exports = {
       { "properties": [
           "box-sizing",
           "grid-template-columns", "grid-template-rows", "grid-template-areas", "grid-template", "grid-auto-columns", "grid-auto-rows", "grid-auto-flow", "grid", "grid-row-start", "grid-column-start", "grid-row-end", "grid-column-end", "grid-row", "grid-column", "grid-area", "grid-row-gap", "grid-column-gap", "grid-gap",
+          "row-gap", "column-gap", "gap",
           "flex", "flex-basis", "flex-direction", "flex-flow", "flex-grow", "flex-shrink", "flex-wrap", "align-content", "align-items", "align-self", "justify-content", "order",
           "float", "clear",
           "overflow", "overflow-x", "overflow-y",
